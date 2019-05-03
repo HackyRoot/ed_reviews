@@ -17,7 +17,7 @@ class ReviewSerializer(serializers.ModelSerializer):
             'course',
             'name',
             'email',  # Reviewer's email id shouldn't be shared publicly
-            'review',
+            'comment',
             'rating',
             'created_at',
         )
